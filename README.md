@@ -2,7 +2,7 @@
 <hr/>
 <br/>
 
-<h4 align="center" This project was built using React, Redux, Chakra UI, CSS and Rest API.</h4>
+<h4 align="center"> This project was built using React, Redux, Chakra UI, CSS and Rest API.</h4>
 
 
 
