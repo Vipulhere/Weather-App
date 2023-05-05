@@ -2,7 +2,7 @@
 <hr/>
 <br/>
 
-This project was built using React, Redux, Chakra UI, CSS and Rest API. It is a web application and for running on your local environment you should follow these guidelines.
+This project was built using React, Redux, Chakra UI, CSS and Rest API.
 
 
 
