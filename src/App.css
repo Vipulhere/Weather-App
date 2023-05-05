@@ -1,0 +1,54 @@
+/* CSS for rotating icons */
+
+.iconRotate {
+    animation: iconRotator 1s linear 0s 1;
+  }
+  
+  @keyframes iconRotator {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* CSS for zooming on hover */
+  
+  .zoom {
+    transition: all 0.5s linear;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.05);
+  }
+  
+  /* CSS for the tagline */
+  
+  .tagLine {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #madeByVipul {
+    color: #008B8B;
+    font-weight: 500;
+    /* Animate the width of the tagline */
+    width: 0ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: tagline 10s infinite alternate;
+    border-right: 3px solid #008B8B;
+  }
+  
+  @keyframes tagline {
+    0% {
+      width: 0ch;
+    }
+    50% {
+      width: 28ch;
+    }
+  }
+  
