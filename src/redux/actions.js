@@ -9,7 +9,7 @@ export const getDataLoading = () => {
     return { type: GET_DATA_LOADING };
 }
 
-// Action Creator - Dispatched after successfully fetching data
+// Dispatched after successfully fetching data
 export const getDataSuccess = (payload) => {
     return { type: GET_DATA_SUCCESS, payload };
 }
